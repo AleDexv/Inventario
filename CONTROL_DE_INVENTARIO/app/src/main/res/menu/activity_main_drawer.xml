@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_consulta"
+            android:checked="true"
+            android:title="Consulta" />
+        <item
+            android:id="@+id/nav_ingreso"
+            android:title="Ingreso" />
+        <item
+            android:id="@+id/nav_egreso"
+            android:title="Egreso" />
+        <item
+            android:id="@+id/nav_transferencia"
+            android:title="Transferencia" />
+        <item
+            android:id="@+id/nav_bodega"
+            android:title="Crear Bodega" />
+    </group>
+
+    <item android:title="Configuracion">
+        <menu>
+            <!--<item
+                android:id="@+id/nav_miperfil"
+                android:title="Mi perfil" /> -->
+            <item
+                android:id="@+id/nav_cerrarsesion"
+                android:title="Cerrar sesion" />
+        </menu>
+    </item>
+
+</menu>

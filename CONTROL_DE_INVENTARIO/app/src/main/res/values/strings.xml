@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CONTROL DE INVENTARIO</string>
+    <string name="consulta">Mi inventario</string>
+    <string name="ingreso">Ingreso inventario</string>
+    <string name="egreso">Egreso inventario</string>
+    <string name="transferencia">Transferencia inventario</string>
+    <string name="registro">Crear una nueva cuenta</string>
+    <string name="miperfil">Mi Perfil</string>
+    <string name="bodega">Crear bodega</string>
+    <string name="lista_restaurantes">Lista de restaurantes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

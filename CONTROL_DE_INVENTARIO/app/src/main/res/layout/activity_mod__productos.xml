@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mod__productos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="solines.rosero.villamar.ucsg.control_de_inventario.Mod_Productos"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Codigo:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:textSize="18sp"
+            android:paddingBottom="3dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/txtcodigo"
+            android:hint="Ingrese codigo"
+            android:enabled="false"
+            android:inputType="textPersonName"/>
+        <TextView
+            android:text="Descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textView2"
+            android:textSize="18sp"
+            android:paddingBottom="3dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/txtdescripcion"
+            android:enabled="false"
+            android:hint="Descripcion del producto" />
+        <TextView
+            android:text="Cantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textView3"
+            android:textSize="18sp"
+            android:paddingBottom="3dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/txtcantidad"
+            android:enabled="false"
+            android:hint="Ingrese cantidad"/>
+        <TextView
+            android:text="Precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textView5"
+            android:textSize="18sp"
+            android:paddingBottom="3dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/txtprecio"
+            android:enabled="false"
+            android:hint="Ingrese Precio" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
+
+            <Button
+                android:text="Volver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnvolver"
+                android:layout_weight="1" />
+            <Button
+                android:text="Modificar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnmodificar"
+                android:layout_weight="1" />
+            <Button
+                android:text="Eliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btneliminar"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
